@@ -1,0 +1,36 @@
+@import './styles/variables/index.scss';
+@import './styles/base/index.scss';
+@import './styles/mixins/index.scss';
+@import './styles/components/header-block';
+@import './styles/components/_hero-block';
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat','Oswald', sans-serif;
+    font-family: 'Vollkorn', serif;
+
+    ul{
+        list-style: none;
+    }
+
+    a{
+        text-decoration: none;
+    }
+}
+
+html, body { 
+    font-size: 16px;
+}
+
+body{
+    .wrapper{
+        max-width: 1440px;
+        margin: 0 auto;
+
+        .content-wrapper{
+            max-width: 940px;
+            margin: 0 auto;
+        }
+    }
+}
