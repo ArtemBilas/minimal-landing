@@ -3,12 +3,12 @@
 @import './styles/mixins/index.scss';
 @import './styles/components/header-block';
 @import './styles/components/_hero-block';
+@import './styles/typografy/index.scss';
 
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat','Oswald', sans-serif;
-    font-family: 'Vollkorn', serif;
+    font-family: 'Montserrat','Oswald','Vollkorn', serif, sans-serif;
 
     ul{
         list-style: none;
