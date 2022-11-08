@@ -1,0 +1,28 @@
+@import '../variables/index.scss';
+@import '../mixins/index.scss';
+
+.get-in-touch-block {
+    background-color: $background;
+    color: $font-color;
+    font-family: $font-color2;
+    font-family: 'Vollrorn', sans-serif;
+    min-height: 279px;
+    padding-top: 60px;
+}
+
+.get-in-touch__text-item {
+    font-size: clamp(.75rem, 10vw, 1.125rem);
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 39px;
+}
+
+.element-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.get-in-touch__btn {
+    @include button-in-touch();
+}
