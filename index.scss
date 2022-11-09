@@ -1,10 +1,13 @@
-@import './styles/variables/index.scss';
-@import './styles/base/index.scss';
-@import './styles/mixins/index.scss';
-@import './styles/components/header-block';
-@import './styles/components/_hero-block';
-@import './styles/components/_get-in-touch-block';
-@import './styles/typografy/index.scss';
+@import './styles/abstracts/variables';
+@import './styles/abstracts/mixins';
+@import './styles/layout/header';
+@import './styles/layout/footer';
+@import './styles/layout/wrapper';
+@import './styles/layout/content-wrapper';
+@import './styles/blocks/hero-block';
+@import './styles/blocks/get-in-touch-block';
+@import './styles/base/typography';
+
 
 * {
     margin: 0;
@@ -22,16 +25,4 @@
 
 html, body { 
     font-size: 16px;
-}
-
-body{
-    .wrapper{
-        max-width: 1440px;
-        margin: 0 auto;
-
-        .content-wrapper{
-            max-width: 940px;
-            margin: 0 auto;
-        }
-    }
 }
