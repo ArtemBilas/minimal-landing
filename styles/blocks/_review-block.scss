@@ -1,0 +1,62 @@
+@import '../abstracts/variables';
+
+.review-block {
+    padding: 69px 0;
+    background-color: $background1;
+
+    .reviw-title {
+        margin-bottom: 65px;
+        text-align: center;
+    }
+
+    .card-container {
+        display: flex;
+    }
+
+    .card-item {
+        max-width: 446px;
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 28px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &:first-child{
+            border-right: 2px solid $font-color3;
+        }
+    }
+
+    .comment-block {
+        max-width: 338px;
+        text-align: center;
+        font-family: 'Vollkorn', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: clamp(1.125rem, 10vw, 1.626rem);
+        line-height: 33px;
+        color: $font-color;
+        margin-bottom: 24px;
+    }
+    .image-container{
+        max-width: 64px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+
+        .image-item{
+            width: 100%;
+        }
+    }
+
+    .reviewer-name{
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px clamp(0.75rem, 10vw, 0.875rem);
+        line-height: 20px;
+        color: $font-color4;
+    }
+}
