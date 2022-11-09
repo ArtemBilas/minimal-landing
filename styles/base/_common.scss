@@ -1,0 +1,28 @@
+html, body { 
+    font-size: 16px;
+}
+
+.text-block{
+    background-color: $background2;
+    padding: 19px 0 21px;
+    
+    .card__title,
+    .card__sub-title{
+        font-weight: 400;
+        line-height: 20px;
+        text-align: center;
+        font-style: normal;
+    }
+
+    .card__title{
+        text-transform: uppercase;
+        font-family: 'Montserrat';
+        font-size: 16px;
+        margin-bottom: 4px;
+    }
+
+    .card__sub-title{
+        font-family: 'Vollkorn', sans-serif;
+        font-size: 14px;
+    }
+}

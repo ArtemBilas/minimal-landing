@@ -3,10 +3,13 @@
 
 @import './styles/base/typography';
 @import './styles/base/reset';
+@import './styles/base/common';
 
 @import './styles/blocks/hero-block';
 @import './styles/blocks/get-in-touch-block';
 @import './styles/blocks/make-brand-algorythm-block';
+@import './styles/blocks/recent-projects';
+@import './styles/blocks/out-team-block';
 
 @import './styles/layout/header';
 @import './styles/layout/footer';
