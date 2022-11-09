@@ -24,15 +24,14 @@
     .icon-container{
         display: flex;
     }
-}
-
-.block-title {
-    text-transform: uppercase;
-    padding-top: 10px;
-    @extend %block-title-element;
-
-    &:after {
-        @extend %after-element;
-        background: $after-element-bg;
+    
+    .icon-link{
+        width: 29px;
+        height: 14px;
+        background-color: $background1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 6px;
     }
 }
