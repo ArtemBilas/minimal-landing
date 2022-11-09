@@ -1,0 +1,16 @@
+@import '../abstracts/variables';
+
+.button{
+    &__get-in-touch{
+        padding: 13px 34px 20px;
+        font-size: clamp(12px, 10vw, 14px);
+        font-family: 'Vollkorn', sans-serif;
+        line-height: 20px;
+        background-color: $background;
+
+        &:hover{
+            opacity: 0.8;
+            // need to add more here for view
+        }
+    }
+}

@@ -1,5 +1,6 @@
-@import '../variables/index.scss';
-@import '../mixins/index.scss';
+@import '../abstracts/variables';
+@import '../abstracts/mixins';
+@import '../components/buttons';
 
 .get-in-touch-block {
     background-color: $background;
@@ -15,14 +16,13 @@
     text-align: center;
     line-height: 25px;
     margin-bottom: 39px;
+    font-family: 'Vollkorn', sans-serif;
+    line-height: 25px;
+    font-weight: 400;
 }
 
 .element-container{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.get-in-touch__btn {
-    @include button-in-touch();
 }
