@@ -1,0 +1,57 @@
+@import '../variables/index';
+
+.header-block {
+    font-family: 'Montserrat', sans-serif;
+
+    .nav-block{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.logo{
+    margin: 18px 0;
+
+    .logo-link{
+        color: $font-color;
+        display: flex;
+        align-items: center;
+
+        .logo{
+            &-wrapper{
+                margin-right: 18px;
+                display: flex;
+                max-width: 67px;
+                width: 100%;
+            }
+
+            &-image{
+                width: 100%;
+            }
+
+            &-text{
+              font-size: 1.25rem;  
+            }
+        }
+    }
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+
+    .nav-item{
+        font-size: .75rem;
+
+        .nav-link{
+            color: $font-color;
+            text-transform: uppercase;
+        }
+
+        &:not(:last-child){
+            margin-right: 34px;
+        }
+    }
+}
