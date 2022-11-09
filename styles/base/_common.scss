@@ -1,5 +1,15 @@
 html, body { 
     font-size: 16px;
+    font-family: 'Montserrat','Oswald','Vollkorn', serif, sans-serif;
+}
+
+.block-title{
+    @extend %block-title-element;
+
+    &:after{
+        @extend %after-element;
+        background: $after-element-bg;
+    }
 }
 
 .text-block{
@@ -16,7 +26,7 @@ html, body {
 
     .card__title{
         text-transform: uppercase;
-        font-family: 'Montserrat';
+        font-family: 'Montserrat', sans-serif;
         font-size: 16px;
         margin-bottom: 4px;
     }

@@ -55,12 +55,3 @@
         letter-spacing: 0rem;
     }
 }
-
-.block-title{
-    @extend %block-title-element;
-
-    &:after{
-        @extend %after-element;
-        background: $after-element-bg;
-    }
-}
