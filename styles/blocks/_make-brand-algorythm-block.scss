@@ -4,72 +4,63 @@
     display: flex;
     justify-content: center;
     padding: 79px 0 69px;
+
+    .cards-container{
+        display: flex;
+        justify-content: center;
+        padding: 43px 0 74px;
+    }
+    
+    .card-item{
+        max-width: 300px;
+        width: 100%;
+        padding: 0 10px;
+    }
+    
+    .image-container{
+        width: 100%;
+        margin: 0 auto;
+        max-height: 219px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $background1;
+    
+        .image-item{
+            max-width: 127px;
+            width: 100%;
+        }
+    }
+    
+    .card__title,
+    .card__sub-title{
+        color: $font-color;
+        text-align: center;
+    }
+    
+    .card__title{
+        font-family: 'Montserrat', sans-serif;
+        font-size: clamp(0.75rem, 10vw, 1rem);
+        line-height: 20px;
+        text-transform: uppercase;
+        padding: 38px 0 20px;
+    }
+    
+    .card__sub-title{
+        font-family: 'Vollkorn', sans-serif;
+        font-size: clamp(0.75rem, 10vw, 0.9375rem);
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0rem;
+    }
 }
 
 .block-title{
-    text-align: center;
-    padding-bottom: 28px;
-    position: relative;
-    font-family: Montserrat;
-    font-size: clamp(0.875rem, 10vw, 1.4375rem);
-    font-weight: 400;
-    line-height: 36px;
-    text-align: center;
-
+    @extend %block-title-element;
 
     &:after{
         @extend %after-element;
         background: $after-element-bg;
-        opacity: .09;
     }
-}
-
-.cards-container{
-    display: flex;
-    justify-content: center;
-    padding: 43px 0 74px;
-}
-
-.card-item{
-    max-width: 300px;
-    width: 100%;
-    padding: 0 10px;
-}
-
-.image-container{
-    width: 100%;
-    margin: 0 auto;
-    max-height: 219px;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: $background1;
-
-    .image-item{
-        max-width: 127px;
-        width: 100%;
-    }
-}
-
-.card__title,
-.card__sub-title{
-    color: $font-color;
-    text-align: center;
-}
-
-.card__title{
-    font-family: 'Montserrat', sans-serif;
-    font-size: clamp(0.75rem, 10vw, 1rem);
-    line-height: 20px;
-    text-transform: uppercase;
-    padding: 38px 0 20px;
-}
-
-.card__sub-title{
-    font-family: 'Vollkorn', sans-serif;
-    font-size: clamp(0.75rem, 10vw, 0,9375rem);
-    font-weight: 400;
-    line-height: 22px;
-    letter-spacing: 0rem;
 }
