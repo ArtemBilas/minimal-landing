@@ -8,7 +8,9 @@
     font-family: $font-color2;
     font-family: 'Vollrorn', sans-serif;
     min-height: 279px;
-    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .get-in-touch__text-item {
