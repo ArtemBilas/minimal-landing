@@ -1,0 +1,58 @@
+@import '../abstracts/variables';
+
+.in-touch-info-block{
+    background-image: url('../../images/in-touch-bg.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 79px;
+
+    .block-title{
+        margin-bottom: 43px;
+    }
+
+    .cards-container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .image-container{
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 26px;
+    }
+
+    .card__title{
+        margin-bottom: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Montserrat' sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px clamp(.875rem ,10vw, 1rem);
+        line-height: 20px;
+        color: $font-color;
+    }
+
+    .text-content{
+
+        .address, 
+        .address-location{
+            .text{
+
+            }
+        }
+
+        .address{}
+
+        .address-location{
+
+        }
+
+        .social-icon-link{
+            
+        }
+    }
+}
+
