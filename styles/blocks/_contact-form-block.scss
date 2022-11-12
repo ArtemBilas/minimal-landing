@@ -63,6 +63,10 @@
                 padding: 18px 0 17px 31px;
                 color: $font-color1;
                 font-size: clamp(0.75rem, 10vw, 0.9375rem);
+            }   
+            
+            teaxtarea:placeholder {
+                font-family: 'Vollkorn', sans-serif;
             }
         }
     }

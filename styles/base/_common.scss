@@ -1,39 +1,60 @@
-html, body { 
+html,
+body {
     font-size: 16px;
-    font-family: 'Montserrat','Oswald','Vollkorn', serif, sans-serif;
+    font-family: 'Montserrat', 'Oswald', 'Vollkorn', serif, sans-serif;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
-.block-title{
+body {
+    position: relative;
+
+    .arrow-up {
+        position: fixed;
+        bottom: 15px;
+        right: 10px;
+        width: 34px;
+        height: 34px;
+        background-color: $font-color2;
+        color: $background;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1rem;
+    }
+}
+
+.block-title {
     text-transform: uppercase;
     @extend %block-title-element;
 
-    &:after{
+    &:after {
         @extend %after-element;
         background: $after-element-bg;
     }
 }
 
-.text-block{
+.text-block {
     background-color: $background2;
     padding: 19px 0 21px;
-    
+
     .card__title,
-    .card__sub-title{
+    .card__sub-title {
         font-weight: 400;
         line-height: 20px;
         text-align: center;
         font-style: normal;
     }
 
-    .card__title{
+    .card__title {
         text-transform: uppercase;
         font-family: 'Montserrat', sans-serif;
         font-size: 16px;
         margin-bottom: 4px;
     }
 
-    .card__sub-title{
+    .card__sub-title {
         font-family: 'Vollkorn', sans-serif;
         font-size: 14px;
     }
