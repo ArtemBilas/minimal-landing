@@ -1,6 +1,12 @@
-@mixin button-in-touch{
-    border-top: 1px solid $font-color2;
-    border-bottom: 1px solid $font-color2;
-    border-left: 1px solid $font-color2;
-    border-right: 1px solid $font-color2;
+@mixin button($border-color, $padding-top, $padding-left, $bg, $font-color){
+    border: 1px solid $border-color;
+    padding: $padding-top $padding-left;
+    background-color: $bg;
+    color: $font-color;
+    font-family: 'Vollkorn', sans-serif;
+
+    &:hover{
+        background-color: $background1;
+        opacity: .8;
+    }
 }
