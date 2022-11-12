@@ -11,6 +11,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+
+    .image-container{
+        position: absolute;
+        top: -27px;
+        left: 48%;
+        width: 52px;
+        height: 52px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .image-item{
+            width: 100%;
+        }
+    }
 }
 
 .get-in-touch__text-item {
