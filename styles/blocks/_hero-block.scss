@@ -1,34 +1,35 @@
 @import '../abstracts/variables';
 @import '../abstracts/placeholder';
 
-.hero-block{
+.hero-block {
     background-image: url('../../images/bg-hero.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 391px;
-}
-.hero-title, 
-.hero-sub-title{
-    font-family: 'Montserrat', sans-serif;
-    color: $font-color1;
-    text-align: center;
-}
 
-.hero-title{
-    font-size: clamp( 18px, 10vw, 44px);
-    max-width: 672px;
-    margin: 0 auto ;
-    padding: 105px 0 28px;
-    position: relative;
-
-    &:after{
-        @extend %after-element;
-        background-color: $font-color1;
+    .hero-title,
+    .hero-sub-title {
+        font-family: 'Montserrat', sans-serif;
+        color: $font-color1;
+        text-align: center;
     }
-}
 
-.hero-sub-title{
-    font-size: clamp(12px, 10vw, 15px);
-    margin-top: 25px;
+    .hero-title {
+        font-size: clamp(1.125rem, 10vw, 2.75rem);
+        max-width: 672px;
+        margin: 0 auto;
+        padding: 105px 0 28px;
+        position: relative;
+
+        &:after {
+            @extend %after-element;
+            background-color: $font-color1;
+        }
+    }
+
+    .hero-sub-title {
+        font-size: clamp(0.75rem, 10vw, 0.9375rem);
+        margin-top: 25px;
+    }
 }

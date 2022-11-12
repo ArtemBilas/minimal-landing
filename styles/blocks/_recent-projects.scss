@@ -11,6 +11,15 @@
         grid-gap: 20px;
         padding-top: 43px;
     }
+
+    .card-item{
+        cursor: pointer;
+        
+        &:hover{
+            @extend %link-hover-effect;
+            transition: all .3s ease-in;
+        }
+    }
     
     .image-container{
         display: flex;

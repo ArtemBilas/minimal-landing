@@ -65,7 +65,7 @@
                 font-size: clamp(0.75rem, 10vw, 0.9375rem);
             }   
             
-            teaxtarea:placeholder {
+            textarea::placeholder {
                 font-family: 'Vollkorn', sans-serif;
             }
         }
