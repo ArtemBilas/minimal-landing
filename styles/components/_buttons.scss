@@ -1,16 +1,22 @@
 @import '../abstracts/variables';
 
-.button{
-    &__get-in-touch{
-        padding: 13px 34px 20px;
-        font-size: clamp(12px, 10vw, 14px);
+.button {
+    &__get-in-touch,  
+    &-submit{
         font-family: 'Vollkorn', sans-serif;
+        font-style: italic;
         line-height: 20px;
-        background-color: $background;
+    }
 
+    &__get-in-touch {
+        @include button($after-element-bg, 20px, 34px, $background, $after-element-bg);
+    }
+
+    &-submit {
+        @include button($background2, 18px, 60px, $after-element-bg, $background2);
+        
         &:hover{
-            opacity: 0.8;
-            // need to add more here for view
+            color: $after-element-bg;
         }
     }
 }
