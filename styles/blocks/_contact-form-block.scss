@@ -7,7 +7,6 @@
 
     .contact-form {
         max-width: 564px;
-        // width: 100%;
         margin: 0 auto;
         padding-bottom: 22px;
         box-sizing: border-box;
@@ -63,7 +62,6 @@
                 border: none;
                 padding: 18px 0 17px 31px;
                 color: $font-color1;
-                // font-family: 'Vollkorn', sans-serif;
                 font-size: clamp(0.75rem, 10vw, 0.9375rem);
             }
         }

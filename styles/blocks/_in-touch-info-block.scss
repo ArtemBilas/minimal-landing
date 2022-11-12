@@ -65,6 +65,10 @@
 
                 &__link{
                     color: $font-color;
+                    
+                    &:hover{
+                        opacity: 0.8;
+                    }
                 }
             }
         }
@@ -75,6 +79,10 @@
 
             &:not(last-child){
                 margin-bottom: 11px;
+            }
+
+            &:hover{
+                @extend %link-hover-effect;
             }
         }
     }
