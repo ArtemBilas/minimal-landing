@@ -5,7 +5,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 79px;
+    padding: 79px 0 69px;
 
     .block-title{
         margin-bottom: 43px;
@@ -14,6 +14,14 @@
     .cards-container{
         display: flex;
         justify-content: center;
+    }
+    
+    .card-item{
+        max-width: 320px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .image-container{
@@ -36,22 +44,38 @@
     }
 
     .text-content{
+        &.social-links{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
 
         .address, 
         .address-location{
-            .text{
+            display: flex;
+            flex-direction: column;
+            font-family: 'Vollkorn', sans-serif;
+            font-size: clam(.875rem, 10vw, 1.0625rem);
 
+            .text{
+                max-width: 178px;
+                width: 100%;
+                text-align: center;
+                line-height: 22px;
+
+                &__link{
+                    color: $font-color;
+                }
             }
         }
 
-        .address{}
-
-        .address-location{
-
-        }
-
         .social-icon-link{
-            
+            color: $font-color;
+            font-family: 'Vollkorn', sans-serif;
+
+            &:not(last-child){
+                margin-bottom: 11px;
+            }
         }
     }
 }

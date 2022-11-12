@@ -4,6 +4,7 @@ html, body {
 }
 
 .block-title{
+    text-transform: uppercase;
     @extend %block-title-element;
 
     &:after{
