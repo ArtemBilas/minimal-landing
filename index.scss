@@ -4,6 +4,7 @@
 @import './styles/base/typography';
 @import './styles/base/reset';
 @import './styles/base/common';
+@import './styles/base/normalize';
 
 @import './styles/blocks/hero-block';
 @import './styles/blocks/get-in-touch-block';
@@ -15,6 +16,7 @@
 @import './styles/blocks/contact-form-block';
 
 @import './styles/components/buttons';
+@import './styles/components/_hamburger';
 
 @import './styles/layout/header';
 @import './styles/layout/wrapper';
