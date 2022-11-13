@@ -35,10 +35,10 @@
         margin-bottom: 20px;
         text-align: center;
         text-transform: uppercase;
-        font-family: 'Montserrat' sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: 400;
-        font-size: 16px clamp(.875rem ,10vw, 1rem);
+        font-size: clamp(.875rem ,10vw, 1rem);
         line-height: 20px;
         color: $font-color;
     }
@@ -55,7 +55,7 @@
             display: flex;
             flex-direction: column;
             font-family: 'Vollkorn', sans-serif;
-            font-size: clam(.875rem, 10vw, 1.0625rem);
+            font-size: clamp(.875rem, 10vw, 1.0625rem);
 
             .text{
                 max-width: 178px;

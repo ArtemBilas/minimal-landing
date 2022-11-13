@@ -55,7 +55,7 @@
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: 400;
-        font-size: 14px clamp(0.75rem, 10vw, 0.875rem);
+        font-size: clamp(0.75rem, 10vw, 0.875rem);
         line-height: 20px;
         color: $font-color4;
     }
